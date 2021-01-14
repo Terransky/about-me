@@ -1,8 +1,8 @@
-LAB - Number
-Project Name
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+LAB - 02
+About Me
+A small about me page that asks a few questions and checks for yes or no responses.
 
-Author: Student/Group Name
+Author: Anthony Turinski
 
 Links and Resources
 
