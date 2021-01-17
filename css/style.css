@@ -1,0 +1,14 @@
+
+body {
+  background-color: beige;
+  border: solid black 1 px;
+  }
+
+a {
+  width: 960 px;
+  border: 2 px solid black;
+  text-align: center;
+  margin: 200 px;
+  width: 100 px;
+  font-size: 24px;
+}

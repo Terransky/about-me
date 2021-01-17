@@ -1,4 +1,4 @@
-LAB - 02
+LAB - 03
 About Me
 A small about me page that asks a few questions and checks for yes or no responses.
 
@@ -11,5 +11,5 @@ Links and Resources
 
 Reflections and Comments
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* Added a 6th question that is a number guessing game.
+* Added a 7th question that guesses a unique answer from an array.
