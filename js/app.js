@@ -145,7 +145,7 @@ for(var i = 6; i > 0; i--) {
 
 }
 
-alert(`The full list of answers is: ${answerSeven[0]} and ${answerSeven[5]}`);
+alert(`The full list of answers is: ${answerSeven[0]} and ${answerSeven[1]}`);
 
 
 
