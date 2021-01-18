@@ -1,14 +1,22 @@
 
 body {
+  width: 960px;
   background-color: beige;
-  border: solid black 1 px;
-  }
+}
+
+
 
 a {
-  width: 960 px;
-  border: 2 px solid black;
-  text-align: center;
-  margin: 200 px;
-  width: 100 px;
+  width: 400px;
+  margin: auto;
+  padding: 10px;
   font-size: 24px;
+  margin-bottom: 100px;
+}
+
+ul {
+  margin: auto;
+  margin-top: 100px;
+  width: 400px;
+  padding: 10px;
 }
