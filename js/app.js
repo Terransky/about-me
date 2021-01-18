@@ -102,10 +102,16 @@ for(var i = 4; i > 0; i--) {
     i++;
   
   } else if(responseNumber > answerSix) {
-      alert("Sorry, just a tad high.");
-  
+    alert("Sorry, just a tad high.");
+    if(i === 1) {
+      alert(`Sorry, that was your final chance. The correct answer is ${answerSix}.`);
+    }  
+
   } else if(responseNumber < answerSix) {
-      alert("Sorry, just a tad low.");
+    alert("Sorry, just a tad low.");
+    if(i === 1) {
+      alert(`Sorry, that was your final chance. The correct answer is ${answerSix}.`);
+    }
   
   } else if(responseNumber === answerSix) {
       alert("Ding ding ding! There you go");
@@ -121,31 +127,25 @@ for(var i = 4; i > 0; i--) {
 
 alert("Alright, last quick game.");
 
-var answerSeven = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+var answerSeven = ["sunday", "friday"];
 
 for(var i = 6; i > 0; i--) {
   
   alert(`You have ${i} chances remaining.`);
   var response = prompt("Can you guess one of my favorite days of the week?").toLowerCase();
 
-  if(response === answerSeven[0] || response === answerSeven[5]) {
+  if(response === answerSeven[0] || response === answerSeven[1]) {
     alert("Good guess. Too easy?");
     score++;
     break;
   
-  } else if (response === answerSeven[1] || response === answerSeven[2] || response === answerSeven[3] || 
-      response === answerSeven[4] || response === answerSeven[6]) {
-      
-        alert("Nice try but no dice.");
-  
   } else {
-      alert("Please answer with a day of the week.");
-      i++;
-  }
+     alert("Nice try but no dice."); 
+  } 
 
 }
 
-alert(`Great job! The full list of answers is: ${answerSeven[0]} and ${answerSeven[5]}`);
+alert(`The full list of answers is: ${answerSeven[0]} and ${answerSeven[5]}`);
 
 
 
