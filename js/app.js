@@ -7,6 +7,7 @@ var user = prompt('Hello. Please tell me your name.');
 alert(`Welcome, ${user}`);
 
 function functionOne(){
+
 var responseOne = prompt("Do you think I'm an earthling?").toLowerCase();
 
 if(responseOne === 'yes' || responseOne === 'y' ){
@@ -23,10 +24,12 @@ if(responseOne === 'yes' || responseOne === 'y' ){
   alert("Please answer yes or no.");
 }
 }
+
 functionOne();
 
 function functionTwo(){
-var responseTwo = prompt("Do I play video games?").toLowerCase();
+
+  var responseTwo = prompt("Do I play video games?").toLowerCase();
 
 if(responseTwo === 'yes' || responseTwo === 'y' ){
   // console.log("Indeed, I'm an avid gamer and currently looking forward to Monster Hunter Rise.");
@@ -42,8 +45,8 @@ if(responseTwo === 'yes' || responseTwo === 'y' ){
   alert("Please answer yes or no.");
 }
 }
-functionTwo();
 
+functionTwo();
 
 function functionThree(){
 var responseThree = prompt("Do I drink alcohol?").toLowerCase();
@@ -62,9 +65,11 @@ if(responseThree === 'yes' || responseThree === 'y' ){
   alert("Please answer yes or no.");
 }
 }
+
 functionThree();
 
 function functionFour(){
+
 var responseFour = prompt("Am I an old man?").toLowerCase();
 
 if(responseFour === 'yes' || responseFour === 'y' ){
@@ -81,10 +86,12 @@ if(responseFour === 'yes' || responseFour === 'y' ){
   alert("Please answer yes or no.");
 }
 }
+
 functionFour();
 
 function functionFive(){
-var responseFive = prompt("Have I ever rode a unicycle.").toLowerCase();
+
+  var responseFive = prompt("Have I ever rode a unicycle.").toLowerCase();
 
 if(responseFive === 'yes' || responseFive === 'y' ){
   // console.log("I was hoping to develop a sense of balance and strong core.");
@@ -99,17 +106,16 @@ if(responseFive === 'yes' || responseFive === 'y' ){
   // console.log("Please answer yes or no.");
   alert("Please answer yes or no.");
 }
-
 }
+
 functionFive();
 
 alert("Let's play a quick guessing game.");
 
 
 function functionSix(){
+
 for(var i = 4; i > 0; i--) {
-
-
   
   var answerSix = 28;
   alert(`You have ${i} chances remaining.`);
@@ -142,6 +148,7 @@ for(var i = 4; i > 0; i--) {
       i++;    
   }
 }
+}
 
 functionSix();
 
@@ -167,6 +174,7 @@ for(var i = 6; i > 0; i--) {
   
 }
 }
+
 functionSeven();
 
 alert(`The full list of answers is: ${answerSeven[0]} and ${answerSeven[1]}`);
