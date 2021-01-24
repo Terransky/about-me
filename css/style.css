@@ -1,29 +1,42 @@
 
+
 body {
-  width: 960px;
-  background-color: beige;
+  border: rgb(189, 17, 17) 10px;
+  border-style: outset;
+  padding: 20px;
+  background-color: black;
+  width: 500px;
+  margin: auto;
+  
 }
-
-
 
 p {
-  width: 400px;
+  background-color: floralwhite;
+  width: 480px;
   margin: auto;
-  padding: 10px;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-ul {
-  margin: auto;
-  margin-top: 10px;
-  width: 400px;
+  border: grey 3px;
+  border-style: inset;
   padding: 10px;
 }
 
-ol {
+ul:first-line, ol:first-line {
+  font-weight: bold;
+}
+
+ul, ol {
+  background-color: floralwhite;
+  width: 480px;
   margin: auto;
-  margin-top: 20px;
-  width: 400px;
+  margin-top: 5px;
+  border: grey 3px;
+  border-style: inset;
   padding: 10px;
+}
+
+li {
+  text-indent: 20px;
+}
+
+li:first-child {
+  margin-top: 5px;
 }
